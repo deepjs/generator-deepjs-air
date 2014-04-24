@@ -1,0 +1,18 @@
+<application xmlns="http://ns.adobe.com/air/application/2.7"> 
+    <id><%= applicationName %></id> 
+    <versionNumber><%= version %></versionNumber> 
+    <filename><%= applicationName %></filename> 
+    <initialWindow> 
+    	<resizable>false</resizable>
+        <content>index.html</content> 
+        <visible>false</visible> 
+        <width>300</width> 
+        <height>300</height> 
+        <systemChrome>none</systemChrome>
+    </initialWindow> 
+    <icon>
+        <image16x16>icons/YOUR-ICON-16.png</image16x16>
+        <image32x32>icons/YOUR-ICON-32.png</image32x32>
+        <image128x128>icons/YOUR-ICON-128.png</image128x128>
+    </icon>
+</application>
